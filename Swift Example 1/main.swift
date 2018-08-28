@@ -8,5 +8,17 @@
 
 import Foundation
 
-print("Hello, World!")
+var name: String  = "Melissa"
+var age = 24
+var value: Double = 154321
+
+name = "Josh"
+age = 27
+
+print("\(name) is \(age) is years old")
+
+for i in 1...5 {
+    print("i = \(i)")
+}
+
 
